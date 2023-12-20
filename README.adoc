@@ -28,6 +28,13 @@ e revisada pela comunidade 😉.
 
 █ = capítulo traduzido
 
+## Gerar arquivo epub
+Instale a dependência
+gem install asciidoctor-epub3
+
+Gere o arquivo
+asciidoctor-epub3 Livro.adoc -o 'Python Fluente, Segunda Edição (2023).epub'
+
 ## Procedência e licença para copiar
 
 ++++
